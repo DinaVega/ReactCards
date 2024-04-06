@@ -1,0 +1,14 @@
+
+.articles .section_title{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.cards{
+    max-width: 1208px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(376px, 1fr));
+    gap: 40px;
+}
+

@@ -1,0 +1,26 @@
+.card_btn{
+    border-radius: 4px;
+    background: #70C05B;
+    color: var(--main-on-secondary, #FFF);
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px;
+    max-width: max-content;
+    min-width: 150px;
+    margin-top: auto;
+}
+.card_btn:hover{
+    box-shadow: 4px 8px 16px 0px rgba(112, 192, 91, 0.20);
+}
+.card_btn:active{
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.20) inset;
+}
+
+.disabled{
+    background: #E5FFDE;
+    color: #70C05B;
+    pointer-events: none;
+    cursor: default;
+}
